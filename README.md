@@ -150,7 +150,7 @@ erDiagram
   Order ||--|{ OrderLineItem : order
   Order o{--|| OrderTable : order
   OrderLineItem ||--|| Menu : menu
-  Menu ||--|| MenuGroup : contains
+  Menu |{--|| MenuGroup : contains
   Menu ||--|{ MenuProduct : contains
   MenuProduct ||--|| Product : product
 ```
